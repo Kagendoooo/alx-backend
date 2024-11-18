@@ -8,6 +8,7 @@ from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
+    """ Defines a caching system with no limits"""
     def put(self, key, item):
         """
         Add an item in the cache
